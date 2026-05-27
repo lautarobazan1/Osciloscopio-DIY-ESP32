@@ -21,10 +21,10 @@ Hardware utilizado
 - Comunicación I2C para display OLED
 - Pantalla OLED SH1106
 
-| Component         | ESP32 Pin                    | Notes                                         |
+| Componentes         | ESP32 Pin                    | Notas                                         |
 |------------------|------------------------------|-----------------------------------------------|
-| Signal input     | GPIO 12                      | Analog input (max 3.3 V, use voltage divider) |
-| Potentiometer    | GPIO 15                      | Adjusts timebase / amplitude                  |
-| Push button      | GPIO 5                       | Multi-function control button                 |
-| OLED (SSD1306, I²C) | SDA → GPIO 21, SCL → GPIO 22 | 3.3 V power                                   |
+| Entrada analógica | GPIO 12                      | Entrada analógica(max 3.3 V, usar divisor resistivo) |
+| Potenciómetro    | GPIO 15                      | Ajuste de base de tiempo / amplitud                  |
+| Botón      | GPIO 5                       | Botón de control multifunción                |
+| Pantalla OLED SH1106 | SDA → GPIO 21, SCL → GPIO 22 | 3.3 V power                                   |
 
