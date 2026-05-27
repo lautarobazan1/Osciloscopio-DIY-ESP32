@@ -34,3 +34,5 @@ Configuración de hardware
 | Botón      | GPIO 5                       | Botón de control multifunción                |
 | Pantalla OLED SH1106 | SDA → GPIO 21, SCL → GPIO 22 | 3.3 V power                                   |
 
+
+Para realizar las pruebas se utilizo el generador de funciones integrado en el multimetro Fnirsi 2C23T que entrega distintos tipos de señales entre 0 y 3.3V, se debe tener en cuenta que el máximo voltaje que soporta el adc del ESP32 es justamente de 0 - 3.3V y no se puede introducir señales que superen esos limites (tampoco hacia el nivel negativo).
