@@ -17,7 +17,7 @@ El proyecto implementa un osciloscopio básico utilizando un ESP32 y una pantall
   - 3 Pulsos: Enter Modo cursor medir la frecuencia manualmente
 
 
-<h3> Hardware utilizado <h3>
+Hardware utilizado
 
 - Microcontrolador
 - ESP32
@@ -25,7 +25,7 @@ El proyecto implementa un osciloscopio básico utilizando un ESP32 y una pantall
 - Comunicación I2C para display OLED
 - Pantalla OLED SH1106
 
-<h3> Configuración de hardware <h3>
+Configuración de hardware
 
 | Componentes         | ESP32 Pin                    | Notas                                         |
 |------------------|------------------------------|-----------------------------------------------|
