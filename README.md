@@ -7,7 +7,7 @@ El proyecto implementa un osciloscopio básico utilizando un ESP32 y una pantall
 <img width="1298" height="886" alt="ESQUEMATICO1" src="https://github.com/user-attachments/assets/29ffebc6-27e6-41a8-9b6c-4d96d27e7b41" />
 
 
-<h3>La implementacion incorpora las siguientes caracteristicas:</h3>
+<h3> La implementacion incorpora las siguientes caracteristicas: </h3>
 
 - Visualización de formas de onda en tiempo real en un OLED de 128x64
 - Control del potenciómetro para base de tiempo y amplitud
@@ -17,12 +17,15 @@ El proyecto implementa un osciloscopio básico utilizando un ESP32 y una pantall
   - 3 Pulsos: Enter Modo cursor medir la frecuencia manualmente
 
 
-<h3>Hardware utilizado<h3>
+<h3> Hardware utilizado <h3>
+
 - Microcontrolador
 - ESP32
 - ADC de 12 bits
 - Comunicación I2C para display OLED
 - Pantalla OLED SH1106
+
+<h3> Configuración de hardware <h3>
 
 | Componentes         | ESP32 Pin                    | Notas                                         |
 |------------------|------------------------------|-----------------------------------------------|
